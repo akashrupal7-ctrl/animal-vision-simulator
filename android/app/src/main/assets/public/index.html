@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="description" content="Simulate how different animals see the world in real time using WebGL vision filters and Gemini AI optics analysis." />
+    <link rel="manifest" href="/manifest.json" />
+    <title>Animal Vision Simulator - Explore How Animals See</title>
+    <script type="module" crossorigin src="/assets/index-BdRLGtnv.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D41R58-V.css">
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased overflow-x-hidden select-none">
+    <div id="root"></div>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol === 'https:') {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(err => {
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+
+
