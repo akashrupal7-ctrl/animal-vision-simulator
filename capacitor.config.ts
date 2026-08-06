@@ -1,0 +1,31 @@
+import type { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.akashrupal.animalvisionsimulator',
+  appName: 'Animal Vision Simulator',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'https',
+    cleartext: true,
+  },
+  plugins: {
+    SplashScreen: {
+      launchShowDuration: 2000,
+      launchAutoHide: true,
+      backgroundColor: '#020617',
+      androidSplashResourceName: 'splash',
+      splashFullScreen: true,
+      splashImmersive: true,
+    },
+    Camera: {
+      permissions: ['camera'],
+    },
+  },
+  android: {
+    backgroundColor: '#020617',
+    allowMixedContent: true,
+    captureInput: true,
+  },
+};
+
+export default config;

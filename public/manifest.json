@@ -1,0 +1,19 @@
+{
+  "short_name": "Animal Vision",
+  "name": "Animal Vision Simulator",
+  "icons": [
+    {
+      "src": "/assets/icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Simulate how different animals see the world in real time with WebGL filters and Gemini AI.",
+  "categories": ["education", "entertainment", "science"]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Animal Vision Simulator",
+  "description": "Simulate how different animals see the world in real time using your device camera or live video with custom vision filters.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
